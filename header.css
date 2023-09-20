@@ -17,3 +17,7 @@ display: inline-block;
             align-items: center;}
 
 .conteiner__imagem { padding: 1em;}
+
+.lista-menu { display: none; }
+
+.conteiner__botao:checked ~ .lista-menu { display: block;}
