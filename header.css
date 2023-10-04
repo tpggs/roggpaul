@@ -33,3 +33,13 @@ top: 100%; }
     background-color: var(--branco);
     
 }
+
+.lista-menu__titulo {color: var(--laranja);
+}
+
+.lista-menu__link {
+    background: var(--laranja)
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
