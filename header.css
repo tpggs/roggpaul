@@ -25,7 +25,8 @@ display: inline-block;
 position: absolute;
 top: 100%; }
 
-.conteiner__botao:checked ~ .lista-menu { display: block;}
+.conteiner__botao:checked ~ .lista-menu 
+{ display: block;}
 
 .lista-menu__titulo,
 .lista-menu__item {
@@ -38,8 +39,12 @@ top: 100%; }
 }
 
 .lista-menu__link {
-    background: var(--laranja)
+    background: var(--laranja);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.conteiner__botao {
+    display: none;
 }
